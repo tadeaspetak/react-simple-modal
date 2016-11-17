@@ -45,6 +45,9 @@ class App extends React.Component{
             and more recently with desktop publishing software like Aldus PageMaker including
             versions of Lorem Ipsum.</p>
         </div>
+        <div className="modal-footer">
+          <button className="button" onClick={() => this.setState({isOpen: false})}>Close</button>
+        </div>
       </Modal>
     </main>);
   }
